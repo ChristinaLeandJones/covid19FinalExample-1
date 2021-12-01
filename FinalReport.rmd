@@ -216,8 +216,8 @@ print(effectivenessgal)
 
 
 ```{r}
-low=(guysfish$conf.int[1]/(guysfish$conf.int[1] +1))*100
-hi=(guysfish$conf.int[2]/(guysfish$conf.int[2] +1))*100
+low=(galfish$conf.int[1]/(galfish$conf.int[1] +1))*100
+hi=(galfish$conf.int[2]/(galfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
